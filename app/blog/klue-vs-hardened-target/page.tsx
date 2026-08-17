@@ -7,14 +7,18 @@ export const metadata: Metadata = {
 
 export default function ArticleCoverPage() {
   return (
-    <main className="min-h-screen bg-[#102d3b] px-5 py-5 text-[#f3f5f1] sm:px-10 sm:py-10 lg:px-16">
-      <div className="relative mx-auto flex min-h-[calc(100vh-2.5rem)] max-w-[1440px] flex-col overflow-hidden border border-[#3e817b]/70 bg-[#102d3b] sm:min-h-[calc(100vh-5rem)]">
+    <main className="min-h-screen bg-[#07151d] px-5 py-5 text-[#f3f5f1] sm:px-10 sm:py-10 lg:px-16">
+      <div className="relative mx-auto flex min-h-[calc(100vh-2.5rem)] max-w-[1440px] flex-col overflow-hidden border border-[#2d5b61]/80 bg-[#0b202a] sm:min-h-[calc(100vh-5rem)]">
         <div
           aria-hidden="true"
-          className="absolute inset-0 bg-cover bg-center opacity-55 mix-blend-screen"
-          style={{ backgroundImage: "url('/klue-cover-background.png')" }}
+          className="absolute inset-0 opacity-35"
+          style={{
+            backgroundImage:
+              'linear-gradient(#6aa79a18 1px, transparent 1px), linear-gradient(90deg, #6aa79a18 1px, transparent 1px)',
+            backgroundSize: '64px 64px',
+          }}
         />
-        <div aria-hidden="true" className="absolute inset-0 bg-[#102d3b]/55" />
+        <div aria-hidden="true" className="absolute inset-0 bg-[#0b202a]/35" />
 
         <header className="relative flex items-center justify-between border-b border-[#a8c9be]/30 px-6 py-5 sm:px-10 lg:px-14">
           <div className="flex items-center gap-3">
