@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'KLUE vs. a Hardened Target',
-  description: 'One bug, no signature required.',
+  title: 'Six CVEs in 163 Minutes',
+  description: 'An autonomous pentest, reasoning included.',
 }
 
-export default function ArticleCoverPage() {
+export default function SixCvesCoverPage() {
   return (
     <main className="min-h-screen bg-[#f3f5f1] px-6 py-6 text-[#0d1f2a] sm:px-12 sm:py-8 lg:px-20">
       <div className="mx-auto flex min-h-[calc(100vh-4rem)] max-w-7xl flex-col border border-[#0d1f2a]/15 bg-[#f3f5f1] px-6 py-6 sm:px-10 sm:py-8 lg:px-14 lg:py-10">
@@ -18,26 +18,26 @@ export default function ArticleCoverPage() {
             />
             <span className="font-mono text-sm font-semibold tracking-[0.34em]">KLUE</span>
           </div>
-          <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#0d1f2a]/55">Field note / 2026</span>
+          <span className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#0d1f2a]/55">Field report / 2026</span>
         </header>
 
         <section className="flex flex-1 flex-col justify-center gap-10 py-12 sm:gap-14 sm:py-16">
           <div className="max-w-5xl">
             <p className="mb-4 flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.24em] text-primary">
-              <span className="size-2 rounded-full bg-primary" /> Security research
+              <span className="size-2 rounded-full bg-primary" /> Autonomous security research
             </p>
-            <h1 className="max-w-4xl text-balance text-5xl font-semibold leading-[0.9] tracking-[-0.07em] sm:text-7xl lg:text-[7.5rem]">
-              KLUE vs. a
+            <h1 className="max-w-5xl text-balance text-5xl font-semibold leading-[0.9] tracking-[-0.07em] sm:text-7xl lg:text-[8rem]">
+              Six CVEs
               <br />
-              Hardened Target
+              in 163 Minutes
             </h1>
-            <p className="mt-8 font-mono text-sm uppercase tracking-[0.18em] text-[#0d1f2a]/60 sm:text-base">
-              One bug. No signature required.
+            <p className="mt-8 max-w-xl font-mono text-sm uppercase tracking-[0.18em] text-[#0d1f2a]/60 sm:text-base">
+              An autonomous pentest, reasoning included.
             </p>
           </div>
         </section>
 
-        <footer className="relative flex items-center justify-between border-t border-[#0d1f2a]/15 pt-4 font-mono text-[9px] uppercase tracking-[0.18em] text-[#0d1f2a]/50 sm:px-10 lg:px-14">
+        <footer className="flex items-center justify-between border-t border-[#0d1f2a]/15 pt-4 font-mono text-[9px] uppercase tracking-[0.18em] text-[#0d1f2a]/50">
           <span>KLUE / SHELLVOIDE</span>
           <span>Responsible disclosure</span>
         </footer>
